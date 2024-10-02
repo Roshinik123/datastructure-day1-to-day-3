@@ -371,3 +371,36 @@ output
 previous day count=10
 veg=36
 nonveg=96
+6)
+#include <stdio.h>
+int main() {
+    int i,j,n1,n2;
+    printf("enter the 2d array[r] [c]");
+    scanf("%d %d",&n1,&n2);
+   int arr[n1][n2];
+   printf("enter the elements");
+  for(i=0;i<n1;i++){
+ for(j=0;j<n2;j++) 
+  {
+      scanf("%d",&arr[i][j]);
+  }
+  }
+  for(i=0;i<n1;i++)
+  {
+  for(j=0;j<n2;j++)
+{
+  printf("%2d",arr[i][j]);  
+}
+printf("\n");
+}
+}
+output;
+enter the 2d array[r] [c]2
+2
+enter the elements2
+2
+2
+2
+ 2 2
+ 2 2
+
