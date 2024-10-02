@@ -344,4 +344,30 @@ enter the number5
 5
 min=1
 max=5
+5)
+#include <stdio.h>
 
+int main()
+{
+    int previous_day_count,veg=0,non_veg=0,i;
+    int arr[10]={20,3,5,80,7,5,4,1,0,7};
+    scanf("%d",&previous_day_count);
+    for(i=0;i<previous_day_count;i++)
+    {
+        if(i%2==0)
+        {
+            veg=veg+arr[i];
+        }
+        else
+        {
+            non_veg=non_veg+arr[i];
+        }
+       
+    }
+    printf("veg=%d \nnonveg=%d",veg,non_veg);
+    return 0;
+}
+output
+previous day count=10
+veg=36
+nonveg=96
