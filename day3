@@ -583,3 +583,68 @@ enter the elements1 2 3 4
  2 1
 -3-1
  1 3
+10)#include <stdio.h>
+int main() {
+    int i,j,n1,n2;
+    printf("enter the 2d array[r] [c]");
+    scanf("%d %d",&n1,&n2);
+   int arr1[n1][n2],arr2[n1][n2],mul[n1][n2];
+   printf("enter the elements");
+  for(i=0;i<n1;i++)
+  {
+ for(j=0;j<n2;j++) 
+  {
+      scanf("%d",&arr1[i][j]);
+  }
+  }
+for(i=0;i<n1;i++)
+  {
+  for(j=0;j<n2;j++)
+{
+printf("%2d",arr1[i][j]);  
+}
+printf("\n");
+}
+for(i=0;i<n1;i++)
+
+ {
+ for(j=0;j<n2;j++) 
+  {
+      scanf("%d",&arr2[i][j]);
+  }
+  }
+for(i=0;i<n1;i++)
+  {
+  for(j=0;j<n2;j++)
+{
+printf("%2d",arr2[i][j]);  
+}
+printf("\n");
+}
+for(i=0;i<n1;i++)
+  {
+  for(j=0;j<n2;j++)
+{
+mul[i][j]=arr1[i][j]*arr2[i][j];  
+}
+}
+for(i=0;i<n1;i++)
+  {
+  for(j=0;j<n2;j++)
+{
+printf("%2d",mul[i][j]);
+}
+printf("\n");
+}
+}
+output;
+enter the 2d array[r] [c]2
+2
+enter the elements1 2 3 4 
+ 1 2
+ 3 4
+1 2 3 4
+ 1 2
+ 3 4
+ 1 4
+ 916
