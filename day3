@@ -1,4 +1,5 @@
-#include <stdio.h>
+Day 1
+1)#include <stdio.h>
 int main()
 {
     int a,b;
@@ -15,7 +16,7 @@ int main()
     return 0;
 }
 
-#include <stdio.h>
+2)#include <stdio.h>
 int main()
 {
     int a,b;
@@ -26,7 +27,7 @@ int main()
     printf("a=%d & b=%d",a,b);
 return 0;
 }
-#include <stdio.h>
+3)#include <stdio.h>
 int main()
 {
     int a,b,h;
@@ -35,7 +36,7 @@ int main()
 printf("area of triangle %d \n perimeter of triangle %d",(b*h)/2,(a+b+h));
     return 0;
 }
-day 2
+Day 2
 1)#include <stdio.h>
 int main()
 {
