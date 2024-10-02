@@ -403,4 +403,52 @@ enter the elements2
 2
  2 2
  2 2
+7)
+#include <stdio.h>
+int main() {
+    int i,j,n1,n2;
+    printf("enter the 2d array[r] [c]");
+    scanf("%d %d",&n1,&n2);
+   int arr[n1][n2],trans[n1][n2];
+   printf("enter the elements");
+  for(i=0;i<n1;i++){
+ for(j=0;j<n2;j++) 
+  {
+      scanf("%d",&arr[i][j]);
+  }
+  }
+  for(i=0;i<n1;i++)
+  {
+  for(j=0;j<n2;j++)
+{
+  printf("%2d",arr[i][j]);  
+}
+printf("\n");
+}
+for(i=0;i<n1;i++)
+  {
+  for(j=0;j<n2;j++)
+{
+ trans[i][j]=arr[j][i];  
+}
 
+}
+for(i=0;i<n1;i++)
+  {
+  for(j=0;j<n2;j++)
+{
+printf("%2d",trans[i][j]);  
+}
+printf("\n");
+}
+}
+output;
+enter the 2d array[r] [c]3
+3
+enter the elements1 2 3 4 5 6 7 8 9
+ 1 2 3
+ 4 5 6
+ 7 8 9
+ 1 4 7
+ 2 5 8
+ 3 6 9
