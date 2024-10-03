@@ -772,4 +772,25 @@ output;
 roshini suresh
 roshini suresh
 string length=14
+3)#include <stdio.h>
+#include<string.h>
+int main() {
+    char s1[20],s2[20];
+    gets(s1);
+    gets(s2);
+    printf("s1=%s s2=%s",s1,s2);
+    int r=strcmp(s1,s2);
+    if(r==0)
+    printf("both are equal");
+    else if(r>0)
+    printf("\ns1 is bigger");
+    else
+    printf("\ns2 is bigger");
 
+    return 0;
+}
+output;
+roshini
+vikashini
+s1=roshini s2=vikashini
+s2 is bigger
