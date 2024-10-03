@@ -755,3 +755,21 @@ enter  the string Iroshini
 enter  the string IIsuresh
 string before concatenation s1=roshini s2=suresh
 string after concatenation s1=roshinis2=roshini
+2)
+// Online C compiler to run C program online
+#include <stdio.h>
+#include<string.h>
+int main() {
+    char ch[20];
+    gets(ch);
+    puts(ch);
+    int l=strlen(ch);
+    printf("string length=%d",l);
+
+    return 0;
+}
+output;
+roshini suresh
+roshini suresh
+string length=14
+
