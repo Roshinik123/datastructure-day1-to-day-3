@@ -243,7 +243,7 @@ enter the number5
 4
 5
 12345
-2)
+2)sum of elements
 #include <stdio.h>
 int main() {
     int i,n,sum=0;
@@ -286,7 +286,7 @@ enter the number4
 3
 4
 sum=10
-4)
+4)product of element
 #include <stdio.h>
 int main() {
     int i,n,res=1;
@@ -310,7 +310,7 @@ enter the number3
 2
 3
 product=6
-5)
+5)finding minimum and maximum
 #include <stdio.h>
 int main() {
     int i,n;
@@ -345,7 +345,7 @@ enter the number5
 5
 min=1
 max=5
-6)
+6)sum of odd even position elements
 #include <stdio.h>
 
 int main()
@@ -372,7 +372,7 @@ output
 previous day count=10
 veg=36
 nonveg=96
-7)
+7)2D static Array
 #include <stdio.h>
 int main() {
     int i,j,n1,n2;
@@ -404,7 +404,7 @@ enter the elements2
 2
  2 2
  2 2
-8)
+8)transpose matrix 
 #include <stdio.h>
 int main() {
     int i,j,n1,n2;
@@ -453,7 +453,8 @@ enter the elements1 2 3 4 5 6 7 8 9
  1 4 7
  2 5 8
  3 6 9
-9)#include <stdio.h>
+9)matrix addition
+#include <stdio.h>
 int main() {
     int i,j,n1,n2;
     printf("enter the 2d array[r] [c]");
@@ -518,7 +519,8 @@ enter the elements1 2 3 4
  3 4
  2 4
  6 8
-10)#include <stdio.h>
+10)matrix subtraction
+#include <stdio.h>
 int main() {
     int i,j,n1,n2;
     printf("enter the 2d array[r] [c]");
@@ -583,7 +585,8 @@ enter the elements1 2 3 4
  2 1
 -3-1
  1 3
-11)#include <stdio.h>
+11)matrix multiplication
+#include <stdio.h>
 int main() {
     int i,j,n1,n2;
     printf("enter the 2d array[r] [c]");
@@ -648,7 +651,7 @@ enter the elements1 2 3 4
  3 4
 1 4
 9 16
-12)
+12)matrix division
 #include <stdio.h>
 int main() {
     int i,j,n1,n2;
@@ -715,7 +718,7 @@ enter the elements5 6 7 8
  3 4
  5 3
  2 2
-13)
+13)count the digits
 #include <stdio.h>
 int main() {
     int count=0;
@@ -736,7 +739,7 @@ output;
 rosh47
 digit=2
 day4;
-1)
+1)string concatenation
 #include <stdio.h>
 #include<string.h>
 int main() {
@@ -755,8 +758,7 @@ enter  the string Iroshini
 enter  the string IIsuresh
 string before concatenation s1=roshini s2=suresh
 string after concatenation s1=roshinis2=roshini
-2)
-// Online C compiler to run C program online
+2)length of string
 #include <stdio.h>
 #include<string.h>
 int main() {
@@ -772,7 +774,8 @@ output;
 roshini suresh
 roshini suresh
 string length=14
-3)#include <stdio.h>
+3)finding biggest string
+#include <stdio.h>
 #include<string.h>
 int main() {
     char s1[20],s2[20];
