@@ -735,3 +735,23 @@ printf("\ndigit=%d",count);
 output;
 rosh47
 digit=2
+day4;
+1)
+#include <stdio.h>
+#include<string.h>
+int main() {
+char s1[20],s2[20];
+printf("enter  the string I");
+gets(s1);
+printf("enter  the string II");
+gets(s2);
+printf("string before concatenation s1=%s s2=%s",s1,s2);
+strcpy(s2,s1);
+printf("\nstring after concatenation s1=%ss2=%s",s1,s2);
+    return 0;
+}
+output;
+enter  the string Iroshini
+enter  the string IIsuresh
+string before concatenation s1=roshini s2=suresh
+string after concatenation s1=roshinis2=roshini
