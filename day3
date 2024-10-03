@@ -218,7 +218,7 @@ enter a value for a-1
 enter a value for b0
 0
 day3
-1)
+1)print the element;
 #include <stdio.h>
 int main() {
     int i,n;
@@ -262,7 +262,7 @@ int main() {
     return 0;
 }
 output;
-#include <stdio.h>
+3)#include <stdio.h>
 int main() {
     int i,n,sum=0;
     printf("enter the number");
@@ -286,7 +286,7 @@ enter the number4
 3
 4
 sum=10
-3)
+4)
 #include <stdio.h>
 int main() {
     int i,n,res=1;
@@ -310,7 +310,7 @@ enter the number3
 2
 3
 product=6
-4)
+5)
 #include <stdio.h>
 int main() {
     int i,n;
@@ -345,7 +345,7 @@ enter the number5
 5
 min=1
 max=5
-5)
+6)
 #include <stdio.h>
 
 int main()
@@ -372,7 +372,7 @@ output
 previous day count=10
 veg=36
 nonveg=96
-6)
+7)
 #include <stdio.h>
 int main() {
     int i,j,n1,n2;
@@ -404,7 +404,7 @@ enter the elements2
 2
  2 2
  2 2
-7)
+8)
 #include <stdio.h>
 int main() {
     int i,j,n1,n2;
@@ -453,7 +453,7 @@ enter the elements1 2 3 4 5 6 7 8 9
  1 4 7
  2 5 8
  3 6 9
-8)#include <stdio.h>
+9)#include <stdio.h>
 int main() {
     int i,j,n1,n2;
     printf("enter the 2d array[r] [c]");
@@ -518,7 +518,7 @@ enter the elements1 2 3 4
  3 4
  2 4
  6 8
-9)#include <stdio.h>
+10)#include <stdio.h>
 int main() {
     int i,j,n1,n2;
     printf("enter the 2d array[r] [c]");
@@ -583,7 +583,7 @@ enter the elements1 2 3 4
  2 1
 -3-1
  1 3
-10)#include <stdio.h>
+11)#include <stdio.h>
 int main() {
     int i,j,n1,n2;
     printf("enter the 2d array[r] [c]");
@@ -648,7 +648,7 @@ enter the elements1 2 3 4
  3 4
 1 4
 9 16
-11)
+12)
 #include <stdio.h>
 int main() {
     int i,j,n1,n2;
@@ -715,7 +715,7 @@ enter the elements5 6 7 8
  3 4
  5 3
  2 2
-12)
+13)
 #include <stdio.h>
 int main() {
     int count=0;
